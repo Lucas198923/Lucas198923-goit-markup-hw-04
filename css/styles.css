@@ -156,6 +156,7 @@ a:focus .smartphone-svg {
       rgba(47, 48, 58, 0.4)
     ),
     url(../Images/Background.jpg);
+
   background-size: cover;
 }
 .hero-header {
@@ -392,6 +393,9 @@ a:focus .smartphone-svg {
   line-height: 2;
   color: rgba(255, 255, 255, 0.6);
 }
+.navigation-logo {
+  padding-top: 0;
+}
 .navigation-logo-studio-white {
   color: #ffffff;
 }
@@ -399,7 +403,7 @@ a:focus .smartphone-svg {
 .social-footer {
   margin-left: 70px;
   align-content: center;
-  margin-top: 30px;
+  padding-top: 10px;
 }
 
 .social-footer-list {
