@@ -156,6 +156,7 @@ a:focus .smartphone-svg {
       rgba(47, 48, 58, 0.4)
     ),
     url(../Images/Background.jpg);
+  background-size: cover;
 }
 .hero-header {
   color: #ffffff;
@@ -180,7 +181,8 @@ a:focus .smartphone-svg {
 }
 /* --------- BENEFITS ---------- */
 .benefits {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 47px;
 }
 .benefits-list {
   display: flex;
@@ -213,7 +215,7 @@ a:focus .smartphone-svg {
   margin-right: auto;
   text-align: space-between;
   padding-bottom: 94px;
-  padding-top: 94px;
+  padding-top: 47px;
 }
 .activities-list {
   display: flex;
@@ -248,8 +250,6 @@ a:focus .smartphone-svg {
 /* --------- TEAM ---------- */
 .team {
   background-color: #f5f4fa;
-}
-.team-list-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -316,20 +316,21 @@ a:focus .smartphone-svg {
   border-radius: 50%;
 }
 /* ------------------------CLIENTS -------------------------*/
-
+.clients {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 .clients-header {
   color: var(--title-text-color);
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   padding-bottom: 50px;
-  padding-top: 94px;
 }
 .clients-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 .clients-item-link {
   display: flex;
@@ -350,15 +351,20 @@ a:focus .smartphone-svg {
 .clients-item-link:hover .clients-svg {
   fill: var(--accent-color);
 }
-/* --------- FOOTER ---------- */
+/* ------------------- FOOTER --------------------- */
 .footer {
+  display: flex;
   background-color: #2f303a;
-  justify-content: space-between;
-  align-items: baseline;
   padding-top: 60px;
   padding-bottom: 60px;
-}
+  margin-left: auto;
+  margin-right: auto;
 
+  align-items: center;
+}
+.footer-inline {
+  display: flex;
+}
 .address {
   width: auto;
   height: auto;
@@ -390,13 +396,10 @@ a:focus .smartphone-svg {
   color: #ffffff;
 }
 
-.inline-footer {
-  display: flex;
-}
-
 .social-footer {
   margin-left: 70px;
-  margin-top: 17px;
+  align-content: center;
+  margin-top: 30px;
 }
 
 .social-footer-list {
