@@ -367,6 +367,7 @@ a:focus .smartphone-svg {
 }
 .footer-inline {
   display: flex;
+  align-items: baseline;
 }
 .address {
   width: auto;
@@ -404,8 +405,8 @@ a:focus .smartphone-svg {
 
 .social-footer {
   margin-left: 70px;
-  align-content: center;
-  padding-top: 10px;
+  /* align-content: center; */
+  /* padding-top: 10px; */
 }
 
 .social-footer-list {
